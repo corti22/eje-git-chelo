@@ -14,4 +14,7 @@ fig=go.Figure()
 
 fig.add_trace(go.Scattergl(x=t, y=f1, mode="lines", name="sin()"))
 fig.add_trace(go.Scattergl(x=t, y=f2, mode="lines", name="cos()"))
+
+fig.add_trace(go.Scattergl(x=t, y=f1+f2, mode="lines", name="suma"))
+
 fig.show()  
